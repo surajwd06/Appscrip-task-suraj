@@ -1,0 +1,20 @@
+.discover-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .discover-products h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .discover-products p {
+    max-width: 600px;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
