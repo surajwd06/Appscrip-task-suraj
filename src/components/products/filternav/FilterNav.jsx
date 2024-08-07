@@ -18,7 +18,6 @@ const FilterNav = ({ showFilter, showfilter, filterHighToLow,filterLowToHigh }) 
       <main className="main">
         <div className="navitem_flex">
           <ul className="navitem">
-            <li>ITEM</li>
             <li onClick={showfilter} className="filternavitem">
               {showFilter ? "Hide Filter" : "Show Filter"}
             </li>

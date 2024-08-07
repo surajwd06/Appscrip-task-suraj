@@ -10,11 +10,13 @@
   .discover-products h1 {
     margin-bottom: 20px;
     font-size: 2em;
+    font-weight: 500;
   }
   
   .discover-products p {
     max-width: 600px;
     font-size: 1.2em;
     color: #555;
+    text-align: center;
   }
   
