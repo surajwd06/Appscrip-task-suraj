@@ -51,7 +51,7 @@ const App = () => {
       <Header />
       <DiscoverProducts />
       <FilterNav showfilter={showfilter} showFilter={showFilter} filterHighToLow={filterHighToLow} filterLowToHigh={filterLowToHigh} showFilterItem={showFilterItem}/>
-      <main >
+      <main className="flex_item">
         <FilterSection showFilter={showFilter} />
         <ProductList showFilter={showFilter} products={products} setProducts={setProducts} loading={loading}  error={error}/>
       </main>

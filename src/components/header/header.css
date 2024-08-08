@@ -55,7 +55,7 @@ body {
     cursor: pointer;
   }
   
-  main {
+  .flex_item {
     padding: 20px;
   }
   
