@@ -13,7 +13,7 @@ const TopNav = () => {
         <li><i class="fa-regular fa-heart"></i></li>
         <li><i class="fa-duotone fa-solid fa-bag-shopping"></i></li>
         <li><i class="fa-regular fa-user"></i></li>
-        <li>Eng</li>
+        <li>Eng <i class="fa-duotone fa-solid fa-angle-down"></i></li>
       </ul>
     </div>
     </div>
