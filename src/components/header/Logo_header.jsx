@@ -12,9 +12,9 @@ const TopNav = () => {
       <ul>
         <li><i className="fa-sharp fa-solid fa-magnifying-glass"></i></li>
         <li><i className="fa-regular fa-heart"></i></li>
-        {/* <li><i className="fa-duotone fa-solid fa-bag-shopping"></i></li> */}
+        <li><i className="fa-duotone fa-solid fa-bag-shopping"></i></li>
         {/* {<li><i className="fa-regular fa-user"></i></li>} */}
-        <li>Eng <i className="fa-duotone fa-solid fa-angle-down"></i></li>
+        {/* <li>Eng <i className="fa-duotone fa-solid fa-angle-down"></i></li> */}
       </ul>
     </div>
     </div>
