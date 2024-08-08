@@ -13,8 +13,10 @@ const App = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [showFilterItem,setShowFilterItem]=useState(false)
   const showfilter = () => {
     setShowFilter(!showFilter);
+    setShowFilterItem(!showFilterItem)
   };
  
 
@@ -48,7 +50,7 @@ const App = () => {
       <TopNav />  
       <Header />
       <DiscoverProducts />
-      <FilterNav showfilter={showfilter} showFilter={showFilter} filterHighToLow={filterHighToLow} filterLowToHigh={filterLowToHigh} />
+      <FilterNav showfilter={showfilter} showFilter={showFilter} filterHighToLow={filterHighToLow} filterLowToHigh={filterLowToHigh} showFilterItem={showFilterItem}/>
       <main >
         <FilterSection showFilter={showFilter} />
         <ProductList showFilter={showFilter} products={products} setProducts={setProducts} loading={loading}  error={error}/>

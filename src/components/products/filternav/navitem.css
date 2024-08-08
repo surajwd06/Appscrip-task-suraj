@@ -42,7 +42,7 @@ li.filternavitem {
   
   .navitem li {
     cursor: pointer;
-    padding: 10px;
+   
   }
   
   .filter-category {
@@ -62,5 +62,10 @@ li.filternavitem {
   .filter-options .res_item li {
     padding: 10px;
     cursor: pointer;
+  }
+  @media (max-width: 600px) {
+    .navitem_flexs {
+      font-weight: 700;
+    }
   }
   

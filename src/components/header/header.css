@@ -12,7 +12,20 @@ body {
     font-weight: 900;
     padding: 30px 20px;
   }
-  
+  .left_logo{
+    width: 50%;
+  }
+  .right_item{
+    width: 50%;
+  }
+  .right_item ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  .right_item ul li{
+    list-style: none;
+   
+  }
   .top-nav .logo {
     font-size: 1.5em;
   }
@@ -57,7 +70,6 @@ body {
 
 .bottom-nav nav ul {
   list-style-type: none;
-  margin: 0 12%;
   padding: 0;
   display: flex;
   justify-content: space-evenly;

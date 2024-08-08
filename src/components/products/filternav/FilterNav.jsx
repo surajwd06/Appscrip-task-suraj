@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./navitem.css";
 
-const FilterNav = ({ showFilter, showfilter, filterHighToLow,filterLowToHigh }) => {
+const FilterNav = ({ showFilter, showfilter, filterHighToLow,filterLowToHigh,showFilterItem }) => {
   const [visibleCategories, setVisibleCategories] = useState({
     recommend: false,
   });
@@ -15,13 +15,23 @@ const FilterNav = ({ showFilter, showfilter, filterHighToLow,filterLowToHigh }) 
 
   return (
     <div className="bottom-nav">
-      <main className="main">
         <div className="navitem_flex">
-          <ul className="navitem">
-            <li onClick={showfilter} className="filternavitem">
-              {showFilter ? "Hide Filter" : "Show Filter"}
+        <div className="filter-category">
+        <ul className="navitem" >
+        {
+          showFilterItem ?<li onClick={showfilter} className="filternavitem">
+              {showFilter ? "> Hide Filter " : "< Show Filter"}
+            </li>:
+            <ul onClick={showfilter}>
+            <li  className={showFilterItem ? "filternavitem":"navitem_flexs"}>
+              FILTER
             </li>
+            </ul>
+           
+        }
+            
           </ul>
+        </div>
           <div className="filter-category">
             <span onClick={() => toggleCategory("recommend")}>
               RECOMMENDED{" "}
@@ -43,7 +53,6 @@ const FilterNav = ({ showFilter, showfilter, filterHighToLow,filterLowToHigh }) 
             )}
           </div>
         </div>
-      </main>
     </div>
   );
 };
