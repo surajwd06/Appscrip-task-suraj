@@ -7,16 +7,20 @@ body {
   
   .top-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-weight: 900;
     padding: 30px 20px;
   }
   .left_logo{
-    width: 50%;
+    width: 30%;
   }
   .right_item{
     width: 50%;
+  }
+  .logo_icon{
+    width: 20%;
+    font-size: 28px;
   }
   .right_item ul{
     display: flex;

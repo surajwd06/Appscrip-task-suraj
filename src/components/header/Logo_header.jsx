@@ -4,16 +4,17 @@ import './header.css'
 const TopNav = () => {
   return (
     <div className="top-nav">
+    <div className='logo_icon'><i className="fa-brands fa-react"></i></div>
     <div className='left_logo'>
       <div className="logo">LOGO</div>
     </div>
     <div className='right_item'>
       <ul>
-        <li><i class="fa-sharp fa-solid fa-magnifying-glass"></i></li>
-        <li><i class="fa-regular fa-heart"></i></li>
-        <li><i class="fa-duotone fa-solid fa-bag-shopping"></i></li>
-        <li><i class="fa-regular fa-user"></i></li>
-        <li>Eng <i class="fa-duotone fa-solid fa-angle-down"></i></li>
+        <li><i className="fa-sharp fa-solid fa-magnifying-glass"></i></li>
+        <li><i className="fa-regular fa-heart"></i></li>
+        <li><i className="fa-duotone fa-solid fa-bag-shopping"></i></li>
+        <li><i className="fa-regular fa-user"></i></li>
+        <li>Eng <i className="fa-duotone fa-solid fa-angle-down"></i></li>
       </ul>
     </div>
     </div>
